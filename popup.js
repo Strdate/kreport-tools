@@ -1,5 +1,10 @@
-console.log("Loaded locale:", chrome.i18n.getMessage("extensionName"));
 document.addEventListener("DOMContentLoaded", () => {
+  document.querySelector("h3").textContent = chrome.i18n.getMessage("blockedUsers");
+  document.getElementById("usernames").placeholder = chrome.i18n.getMessage("placeholder");
+  document.querySelector("label").lastChild.textContent = chrome.i18n.getMessage("checkboxLabel");
+  document.getElementById("saveBtn").textContent = chrome.i18n.getMessage("save");
+  document.getElementById("status").textContent = chrome.i18n.getMessage("saved");
+
   const usernamesEl = document.getElementById("usernames");
   const contentOnlyEl = document.getElementById("contentOnly");
   const statusEl = document.getElementById("status");

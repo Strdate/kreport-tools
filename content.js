@@ -1,4 +1,3 @@
-console.log("Loaded locale:", chrome.i18n.getMessage("extensionName"));
 chrome.storage.sync.get(["blockedUsers", "contentOnly"], (data) => {
   const blocked_users = (data.blockedUsers || "").split(",").map(s => s.trim()).filter(Boolean);
   const contentOnly = !!data.contentOnly;
