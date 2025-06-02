@@ -1,0 +1,20 @@
+{
+  "extensionName": {
+    "message": "Blokování uživatelů K-Reportu"
+  },
+  "blockedUsers": {
+    "message": "Blokovaní uživatelé"
+  },
+  "placeholder": {
+    "message": "např. Kid, Troll123"
+  },
+  "checkboxLabel": {
+    "message": "Skrýt pouze obsah příspěvku, nikoliv jméno autora"
+  },
+  "save": {
+    "message": "Uložit"
+  },
+  "saved": {
+    "message": "Uloženo! Stiskněte F5 pro aplikování změn."
+  }
+}

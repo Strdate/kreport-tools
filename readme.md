@@ -1,0 +1,1 @@
+Toto MV3 rozšíření slouží k blokování příspěvků vybraných uživatelů na k-report.net. Seznam blokovaných uživatelů lze editovat kliknutím na ikonu rozšíření v pravé horní části obrazovky.

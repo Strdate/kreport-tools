@@ -1,0 +1,20 @@
+{
+  "extensionName": {
+    "message": "K-Report User Blocker xx"
+  },
+  "blockedUsers": {
+    "message": "Blocked Users"
+  },
+  "placeholder": {
+    "message": "e.g. Kid, Troll123"
+  },
+  "checkboxLabel": {
+    "message": "Hide only the post content, not the author"
+  },
+  "save": {
+    "message": "Save"
+  },
+  "saved": {
+    "message": "Saved! Press F5 to apply changes."
+  }
+}

@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>__MSG_extensionName__</title>
+  <style>
+    body { font-family: sans-serif; width: 300px; padding: 10px; }
+    textarea { width: 100%; height: 80px; }
+    label { display: block; margin-top: 10px; }
+    button { margin-top: 10px; width: 100%; }
+  </style>
+</head>
+<body>
+  <h3>__MSG_blockedUsers__</h3>
+  <textarea id="usernames" placeholder="__MSG_placeholder__"></textarea>
+  <label>
+    <input type="checkbox" id="contentOnly" />
+    __MSG_checkboxLabel__
+  </label>
+  <button id="saveBtn">__MSG_save__</button>
+  <p id="status" style="color: green; display: none;">__MSG_saved__</p>
+  <script src="popup.js"></script>
+</body>
+</html>
